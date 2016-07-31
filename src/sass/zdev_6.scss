@@ -1,0 +1,158 @@
+.mivin-main-page{position:relative;
+	 // background: url('https://mywin24.com/images/mw-bg2.jpg') no-repeat; background-position: center center; background-size: 	100%;  
+	.mivin-mbox{max-width:1024px;width:100%;margin:0 auto;z-index:1; display: flex; flex-direction: column;
+		.mivin-background1{position: absolute; top: 0; left: 0;z-index: -1;
+			img{min-height: 1032px;}
+		}
+
+		.mivin-background2{position: absolute; top: 1032px; left: 0; z-index: -1;
+			img{ min-height: 3000px;}
+		}
+
+		// mivin-header
+			.mivin-header{display: flex; justify-content: space-between; align-items: center;
+				.mivin-logo1{
+					
+				}
+				.mivin-links{display: flex;
+					.mivin-link{margin-right: 25px; border-bottom: 2px solid transparent;
+						a{color: #fff; text-decoration: none; text-transform: uppercase; font-size: 14px;							
+						}
+						&:hover{border-bottom: 2px solid #fff;}
+					}
+				}
+			}
+		// /mivin-header
+		
+		//mivin-top-heading
+			.mivin-top-heading{margin: 0 auto;
+				h2{font-size: 80px; color: #fff;
+					span{font-size: 140px; }
+				}
+			}
+		// /mivin-top-heading
+		
+		//mivin-blue-button
+			.mivin-blue-button{width: 100%; display: flex; justify-content: center;
+				a{width: 300px; padding: 30px 70px;text-transform: uppercase; color: #fff; font-size: 30px; text-decoration: none; background: linear-gradient(to top, #194aa3,#708fc6); border-radius: 10px; 
+					span{}
+				}
+				
+			}
+		// /mivin-blue-button
+		
+		//mivin-red-button
+			.mivin-red-button{width: 100%; display: flex; justify-content: center;
+				a{width: 300px; padding: 30px 70px;text-transform: uppercase; color: #fff; font-size: 30px; text-decoration: none; background: linear-gradient(to top, #ff222e,#ff7981); border-radius: 10px; 
+					span{}
+				}
+				
+			}
+		// /mivin-red-button
+		
+		//mivin-top-brands
+			.mivin-top-brands{width: 100%; display: flex; flex-wrap: wrap; padding: 80px 0 0 0;
+				.mivin-top-brands-heading{margin: 0 auto; padding-bottom: 30px;
+					h4{color: #fff; font-size: 18px;}
+				}
+				.mivin-top-brands-line{margin: 0 auto;
+					
+				}
+				.mivin-three-arrows{ display: flex; width: 100%; justify-content: center; flex-direction: column; align-itmes: center; padding: 60px 0 70px;
+					.mivin-arrow{width: 20px; min-height: 20px; border-right: 1px solid #fff;border-bottom: 1px solid #fff;	transform: rotate(45deg); margin: 0 auto;
+					}		
+				}
+			}
+		// /mivin-top-brands
+		
+		//mivin-reasons-to-worck
+			.mivin-reasons-to-worck{display: flex; flex-direction: column; align-items: center; padding-bottom: 60px;
+				.mivin-raeasons-heading{text-align: center;position: relative; width: 100%;
+					h3{color: #fff; font-size: 50px;
+						
+					}
+					&:before{width: 130px; min-height: 3px; background: #fff;content: ''; display: block; position: absolute; top: 50%; margin-top: -2px; right:0; }
+					&:after{width: 130px; min-height: 3px; background: #fff;content: ''; display: block; position: absolute; top: 50%; margin-top: -2px; left:0; }
+				}
+				.mivin-resons{display: flex; flex-wrap: wrap; justify-content:center;
+					.mivin-reason{width: 100%; display: flex; width: 560px; align-items: center; margin-bottom: 10px;
+						.img-part{ margin-right: 30px;
+							
+						}
+						.mivin-reason-description{color: #fff;
+							.mivin-upper-part{font-size: 24px; text-transform: uppercase;
+								p{margin: 0;}
+							}
+							.mivin-lower-part{
+								p{margin: 0;}
+							}
+						}
+					}
+				}
+			}
+		// /mivin-reasons-to-worck
+		
+		//mivin-comission
+			.mivin-comission{padding: 85px 0 115px 0px; display: flex; flex-wrap: wrap; justify-content: center;
+				.mivin-comission-heading{padding: 0 0 75px 0; width: 100%; text-align: center;
+					h3{font-size: 24px; color: #fff;}
+				}
+				.mivin-comission-sircles{position: relative; display: flex; width: calc(100% / 3); color: #fff; flex-direction: column;text-align: center;padding-top: 60px; justify-content: center; align-items: center;
+					&:nth-child(3){margin-right: -50px; margin-left: -50px;}
+					.mivin-comission-sircle{position: absolute; top: 0; left: 0;
+						
+					}
+					.mivin-comission-sircle-heading{ font-size: 123px; padding-bottom: 25px; 
+						h4{margin: 0;}
+					}
+					.mivin-comission-sircle-description{font-size: 18px; width: 225px;
+						p{margin: 0;}
+					}
+				}
+
+			}
+		// /mivin-comission
+		
+		// mivin-faq
+			.mivin-faq{text-align: center; color: #fff; padding-bottom: 60px; padding-top: 60px;
+				.mivin-question1{
+					.mivin-question1-heading{position: relative; 
+						&:before{width: 130px; min-height: 3px; background: #fff;content: ''; display: block; position: absolute; top: 50%; margin-top: -2px; right:0; }
+						&:after{width: 130px; min-height: 3px; background: #fff;content: ''; display: block; position: absolute; top: 50%; margin-top: -2px; left:0; }
+						h3{color: #fff; font-size: 50px;}
+					}
+					.mivin-question1-answer{ font-size: 18px; line-height: 1.3; font-weight: bold;
+						p{
+							a{color: #fff;}
+						}
+					}
+				}
+				.mivin-question2{
+					.mivin-question2-heading{position: relative;
+						&:before{width: 130px; min-height: 3px; background: #fff;content: ''; display: block; position: absolute; top: 50%; margin-top: -2px; right:0; }
+						&:after{width: 130px; min-height: 3px; background: #fff;content: ''; display: block; position: absolute; top: 50%; margin-top: -2px; left:0; }
+						h3{font-size: 50px;}
+					}
+					.mivin-question2-answer{font-size: 18px; line-height: 1.3; font-weight: bold;
+						p{
+							a{color: #fff;}
+						}
+					}
+				}
+
+			}
+		// /mivin-faq
+		
+		.mivin-thank-you{width: 100%; display: flex; justify-content: center; padding: 90px 0 80px 0;
+			
+		}
+		.mivin-partners-bottom{ width: 100%; display: flex; justify-content: center; padding-bottom: 35px; border-bottom: 3px solid #fff; 
+			
+		}
+
+		.mivina-rights{ color: #fff; font-size: 12px; text-align: center; font-weight: bold;
+			a{color: #fff;}
+			p{margin: 20px 0;}
+		}
+	}
+}
