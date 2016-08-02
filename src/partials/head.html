@@ -5,32 +5,670 @@
     <title></title>
 
     <meta id="viewport" name="viewport" content="width=1280,user-scalable=yes">
-    <meta name="format-detection" content="telephone=no">
     <meta name="MobileOptimized" content="1280"/>
-    <meta name="HandheldFriendly" content="false"/>
-
-    <meta name="format-detection" content="telephone=no">
+    
 
     <!-- build:css -->
 
-    <link rel="stylesheet" href="css/fancybox.css">
-    <link rel="stylesheet" href="css/formstyler.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/slick.css">
+    
+    
+    
     <!-- add new file here -->
 
-    <link rel="stylesheet" href="css/zdev_0_basic.css">
-    <link rel="stylesheet" href="css/zdev_1.css">
-    <link rel="stylesheet" href="css/zdev_1_adapt.css">
-    <link rel="stylesheet" href="css/zdev_2.css">
-    <link rel="stylesheet" href="css/zdev_2_adapt.css">
-    <link rel="stylesheet" href="css/zdev_4.css">
-    <link rel="stylesheet" href="css/zdev_4_adapt.css">
-    <link rel="stylesheet" href="css/zdev_5.css">
-    <link rel="stylesheet" href="css/zdev_5_adapt.css">
-    <link rel="stylesheet" href="css/zdev_6.css">
-    <link rel="stylesheet" href="css/zdev_6_adapt.css">
+
+    <style type="text/css">
+        .mivin-body{margin: 0;}
+        .mivin-main-page {
+          position: relative; }
+          .mivin-main-page .mivin-mbox {
+            max-width: 1024px;
+            width: 100%;
+            margin: 0 auto;
+            z-index: 1;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            /* helping adds*/
+            /* /helping adds*/
+            /* ctext */
+            /* /ctext */
+            /* base styles*/
+            /* adapted styles for wp-admin panel */
+            /* /adapted styles for wp-admin panel */
+            /* /base styles */
+            /* wraps styling*/
+            /* /wraps styling*/ }
+            .mivin-main-page .mivin-mbox .clear {
+              clear: both;
+              font-size: 1px;
+              line-height: 1px;
+              height: 0;
+              overflow: hidden; }
+            .mivin-main-page .mivin-mbox .cfix:after {
+              content: '';
+              display: block;
+              height: 0;
+              font-size: 1px;
+              line-height: 1px;
+              overflow: hidden;
+              clear: both; }
+            .mivin-main-page .mivin-mbox .juster {
+              display: inline-block;
+              width: 100%;
+              height: 0;
+              overflow: hidden; }
+            .mivin-main-page .mivin-mbox .jfix-after:after {
+              content: '';
+              display: inline-block;
+              width: 100%;
+              height: 0;
+              overflow: hidden; }
+            .mivin-main-page .mivin-mbox .vfix {
+              height: 100%;
+              width: 0px;
+              display: inline-block;
+              vertical-align: middle; }
+            .mivin-main-page .mivin-mbox .vfix-before:before {
+              content: '';
+              height: 100%;
+              width: 0;
+              display: inline-block;
+              vertical-align: middle; }
+            .mivin-main-page .mivin-mbox .hidden-block {
+              position: absolute;
+              left: -99999em;
+              top: -99999em; }
+            .mivin-main-page .mivin-mbox .ctext h1, .mivin-main-page .mivin-mbox .ctext h2, .mivin-main-page .mivin-mbox .ctext h3, .mivin-main-page .mivin-mbox .ctext h4, .mivin-main-page .mivin-mbox .ctext h5, .mivin-main-page .mivin-mbox .ctext h6 {
+              line-height: 1.25;
+              margin-bottom: 15px;
+              font-weight: 700; }
+            .mivin-main-page .mivin-mbox .ctext h1 {
+              font-size: 36px; }
+            .mivin-main-page .mivin-mbox .ctext h2 {
+              font-size: 32px; }
+            .mivin-main-page .mivin-mbox .ctext h3 {
+              font-size: 28px; }
+            .mivin-main-page .mivin-mbox .ctext h4 {
+              font-size: 24px; }
+            .mivin-main-page .mivin-mbox .ctext h5 {
+              font-size: 20px; }
+            .mivin-main-page .mivin-mbox .ctext h6 {
+              font-size: 16px; }
+            .mivin-main-page .mivin-mbox .ctext p {
+              margin-bottom: 10px;
+              font-size: 14px; }
+            .mivin-main-page .mivin-mbox *, .mivin-main-page .mivin-mbox *:before, .mivin-main-page .mivin-mbox *:after {
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              outline: none; }
+            .mivin-main-page .mivin-mbox *, .mivin-main-page .mivin-mbox body, .mivin-main-page .mivin-mbox html {
+              -webkit-text-size-adjust: none;
+              -webkit-appearance: none;
+              max-height: 9001em; }
+            .mivin-main-page .mivin-mbox html {
+              height: 100%; }
+            .mivin-main-page .mivin-mbox body {
+              min-height: 100%;
+              width: 100%;
+              min-width: 320px;
+              font-family: arial,sans-serif;
+              background: #fff;
+              color: #3d3d3d;
+              position: relative;
+              font-size: 16px;
+              line-height: 1;
+              /* styles for wp-admin panel */
+              /* /styles for wp-admin panel */ }
+              .mivin-main-page .mivin-mbox body.customize-support .wp-panel-show {
+                top: 32px; }
+            .mivin-main-page .mivin-mbox img {
+              vertical-align: bottom;
+              border: 0;
+              max-width: 100%; }
+            @media screen and (max-width: 782px) {
+              .mivin-main-page .mivin-mbox body.customize-support .wp-panel-show {
+                top: 46px; }
+              .mivin-main-page .mivin-mbox #wpadminbar {
+                position: fixed !important; } }
+            .mivin-main-page .mivin-mbox .mbox {
+              max-width: 1024px;
+              width: 100%;
+              margin: 0 auto;
+              position: relative;
+              z-index: 1; }
+            .mivin-main-page .mivin-mbox .mbox:after {
+              content: "";
+              clear: both;
+              font-size: 1px;
+              line-height: 1px;
+              height: 0;
+              overflow: hidden;
+              display: block; }
+            .mivin-main-page .mivin-mbox .mivin-background1 {
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+              width: 100%; }
+              .mivin-main-page .mivin-mbox .mivin-background1 img {
+                width: 100%; }
+                .mivin-main-page .mivin-mbox .mivin-background1 img:last-child {
+                  min-height: 3000px; }
+            .mivin-main-page .mivin-mbox .mivin-header {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: justify;
+              -webkit-justify-content: space-between;
+              -moz-box-pack: justify;
+              -ms-flex-pack: justify;
+              justify-content: space-between;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+              -moz-box-align: center;
+              -ms-flex-align: center;
+              align-items: center; }
+              .mivin-main-page .mivin-mbox .mivin-header .mivin-links {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex; }
+                .mivin-main-page .mivin-mbox .mivin-header .mivin-links .mivin-link {
+                  margin-right: 25px;
+                  border-bottom: 2px solid transparent; }
+                  .mivin-main-page .mivin-mbox .mivin-header .mivin-links .mivin-link a {
+                    color: #fff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: bold; }
+                  .mivin-main-page .mivin-mbox .mivin-header .mivin-links .mivin-link:hover {
+                    border-bottom: 2px solid #fff; }
+            .mivin-main-page .mivin-mbox .mivin-top-heading {
+              margin: 0 auto; }
+              .mivin-main-page .mivin-mbox .mivin-top-heading h2 {
+                font-size: 80px;
+                color: #fff;
+                font-weight: 300; }
+                .mivin-main-page .mivin-mbox .mivin-top-heading h2 span {
+                  font-size: 140px;
+                  font-weight: bold; }
+            .mivin-main-page .mivin-mbox .mivin-blue-button {
+              width: 100%;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+              -moz-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center; }
+              .mivin-main-page .mivin-mbox .mivin-blue-button a {
+                width: 300px;
+                padding: 30px 70px;
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 30px;
+                text-decoration: none;
+                background: -webkit-gradient(linear, left bottom, left top, from(#194aa3), to(#708fc6));
+                background: -webkit-linear-gradient(bottom, #194aa3, #708fc6);
+                background: -moz-linear-gradient(bottom, #194aa3, #708fc6);
+                background: -o-linear-gradient(bottom, #194aa3, #708fc6);
+                background: linear-gradient(to top, #194aa3, #708fc6);
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px; }
+                .mivin-main-page .mivin-mbox .mivin-blue-button a:hover {
+                  background: -webkit-gradient(linear, left bottom, left top, from(#ff222e), to(#ff7981));
+                  background: -webkit-linear-gradient(bottom, #ff222e, #ff7981);
+                  background: -moz-linear-gradient(bottom, #ff222e, #ff7981);
+                  background: -o-linear-gradient(bottom, #ff222e, #ff7981);
+                  background: linear-gradient(to top, #ff222e, #ff7981); }
+            .mivin-main-page .mivin-mbox .mivin-red-button {
+              width: 100%;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+              -moz-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center; }
+              .mivin-main-page .mivin-mbox .mivin-red-button a {
+                width: 300px;
+                padding: 30px 70px;
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 30px;
+                text-decoration: none;
+                background: -webkit-gradient(linear, left bottom, left top, from(#ff222e), to(#ff7981));
+                background: -webkit-linear-gradient(bottom, #ff222e, #ff7981);
+                background: -moz-linear-gradient(bottom, #ff222e, #ff7981);
+                background: -o-linear-gradient(bottom, #ff222e, #ff7981);
+                background: linear-gradient(to top, #ff222e, #ff7981);
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px; }
+                .mivin-main-page .mivin-mbox .mivin-red-button a:hover {
+                  background: -webkit-gradient(linear, left bottom, left top, from(#194aa3), to(#708fc6));
+                  background: -webkit-linear-gradient(bottom, #194aa3, #708fc6);
+                  background: -moz-linear-gradient(bottom, #194aa3, #708fc6);
+                  background: -o-linear-gradient(bottom, #194aa3, #708fc6);
+                  background: linear-gradient(to top, #194aa3, #708fc6); }
+            .mivin-main-page .mivin-mbox .mivin-top-brands {
+              width: 100%;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+              padding: 80px 0 0 0; }
+              .mivin-main-page .mivin-mbox .mivin-top-brands .mivin-top-brands-heading {
+                margin: 0 auto;
+                padding-bottom: 30px; }
+                .mivin-main-page .mivin-mbox .mivin-top-brands .mivin-top-brands-heading h4 {
+                  color: #fff;
+                  font-size: 18px; }
+              .mivin-main-page .mivin-mbox .mivin-top-brands .mivin-top-brands-line {
+                margin: 0 auto; }
+              .mivin-main-page .mivin-mbox .mivin-top-brands .mivin-three-arrows {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex;
+                width: 100%;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -moz-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: column;
+                -moz-box-orient: vertical;
+                -moz-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                align-itmes: center;
+                padding: 60px 0 70px; }
+                .mivin-main-page .mivin-mbox .mivin-top-brands .mivin-three-arrows .mivin-arrow {
+                  width: 20px;
+                  min-height: 20px;
+                  border-right: 1px solid #fff;
+                  border-bottom: 1px solid #fff;
+                  -webkit-transform: rotate(45deg);
+                  -moz-transform: rotate(45deg);
+                  -ms-transform: rotate(45deg);
+                  -o-transform: rotate(45deg);
+                  transform: rotate(45deg);
+                  margin: 0 auto;
+                  position: relative;
+                  -webkit-animation-name: arrowJumping;
+                  -moz-animation-name: arrowJumping;
+                  -o-animation-name: arrowJumping;
+                  animation-name: arrowJumping;
+                  -webkit-animation-duration: 0.7s;
+                  -moz-animation-duration: 0.7s;
+                  -o-animation-duration: 0.7s;
+                  animation-duration: 0.7s;
+                  -webkit-animation-iteration-count: infinite;
+                  -moz-animation-iteration-count: infinite;
+                  -o-animation-iteration-count: infinite;
+                  animation-iteration-count: infinite;
+                  -webkit-animation-direction: alternate;
+                  -moz-animation-direction: alternate;
+                  -o-animation-direction: alternate;
+                  animation-direction: alternate; }
+            .mivin-main-page .mivin-mbox .mivin-reasons-to-worck {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -webkit-flex-direction: column;
+              -moz-box-orient: vertical;
+              -moz-box-direction: normal;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+              -moz-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              padding-bottom: 60px; }
+              .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-raeasons-heading {
+                text-align: center;
+                position: relative;
+                width: 100%; }
+                .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-raeasons-heading h3 {
+                  color: #fff;
+                  font-size: 50px;
+                  font-weight: 700; }
+                .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-raeasons-heading:before {
+                  width: 130px;
+                  min-height: 3px;
+                  background: #fff;
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -2px;
+                  right: 0; }
+                .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-raeasons-heading:after {
+                  width: 130px;
+                  min-height: 3px;
+                  background: #fff;
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -2px;
+                  left: 0; }
+              .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-resons {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -moz-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center; }
+                .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-resons .mivin-reason {
+                  width: 100%;
+                  display: -webkit-box;
+                  display: -webkit-flex;
+                  display: -moz-box;
+                  display: -ms-flexbox;
+                  display: flex;
+                  width: 610px;
+                  -webkit-box-align: center;
+                  -webkit-align-items: center;
+                  -moz-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center;
+                  margin-bottom: 10px; }
+                  .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-resons .mivin-reason .img-part {
+                    margin-right: 30px; }
+                  .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-resons .mivin-reason .mivin-reason-description {
+                    color: #fff; }
+                    .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-resons .mivin-reason .mivin-reason-description .mivin-upper-part {
+                      font-size: 24px;
+                      text-transform: uppercase;
+                      font-weight: bold;
+                      line-height: 1.3; }
+                      .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-resons .mivin-reason .mivin-reason-description .mivin-upper-part p {
+                        margin: 0;
+                        color: #fff;
+                        font-size: 24px;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        line-height: 1.3; }
+                    .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-resons .mivin-reason .mivin-reason-description .mivin-lower-part {
+                      font-size: 18px; }
+                      .mivin-main-page .mivin-mbox .mivin-reasons-to-worck .mivin-resons .mivin-reason .mivin-reason-description .mivin-lower-part p {
+                        margin: 0;
+                        font-size: 18px;
+                        color: #fff; }
+            .mivin-main-page .mivin-mbox .mivin-comission {
+              padding: 85px 0 115px 0px;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+              -moz-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center; }
+              .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-heading {
+                padding: 0 0 75px 0;
+                width: 100%;
+                text-align: center; }
+                .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-heading h3 {
+                  font-size: 24px;
+                  color: #fff; }
+              .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-sircles {
+                position: relative;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex;
+                width: -webkit-calc(100% / 3);
+                width: -moz-calc(100% / 3);
+                width: calc(100% / 3);
+                color: #fff;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: column;
+                -moz-box-orient: vertical;
+                -moz-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                text-align: center;
+                padding-top: 60px;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -moz-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                -moz-box-align: center;
+                -ms-flex-align: center;
+                align-items: center; }
+                .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-sircles:nth-child(3) {
+                  margin-right: -50px;
+                  margin-left: -50px; }
+                .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-sircles .mivin-comission-sircle {
+                  position: absolute;
+                  top: 0;
+                  left: 0; }
+                .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-sircles:hover .mivin-comission-sircle-heading h4 {
+                  -webkit-transform: scale(1.5);
+                  -moz-transform: scale(1.5);
+                  -ms-transform: scale(1.5);
+                  -o-transform: scale(1.5);
+                  transform: scale(1.5);
+                  color: #fc0;
+                  position: relative;
+                  z-index: 5;
+                  -webkit-transition: 0.5s;
+                  -moz-transition: 0.5s;
+                  -o-transition: 0.5s;
+                  transition: 0.5s;
+                  cursor: pointer; }
+                .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-sircles .mivin-comission-sircle-heading {
+                  font-size: 123px;
+                  }
+                  .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-sircles .mivin-comission-sircle-heading h4 {
+                    margin: 0;
+                    font-size: 123px;
+                    }
+                .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-sircles .mivin-comission-sircle-description {
+                  font-size: 18px;
+                  width: 225px;
+                  font-weight: bold; }
+                  .mivin-main-page .mivin-mbox .mivin-comission .mivin-comission-sircles .mivin-comission-sircle-description p {
+                    margin: 0;
+                    font-size: 18px;
+                    font-weight: bold; }
+            .mivin-main-page .mivin-mbox .mivin-faq {
+              text-align: center;
+              color: #fff;
+              padding-bottom: 60px;
+              padding-top: 60px; }
+              .mivin-main-page .mivin-mbox .mivin-faq .mivin-question1 .mivin-question1-heading {
+                position: relative; }
+                .mivin-main-page .mivin-mbox .mivin-faq .mivin-question1 .mivin-question1-heading:before {
+                  width: 130px;
+                  min-height: 3px;
+                  background: #fff;
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -2px;
+                  right: 0; }
+                .mivin-main-page .mivin-mbox .mivin-faq .mivin-question1 .mivin-question1-heading:after {
+                  width: 130px;
+                  min-height: 3px;
+                  background: #fff;
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -2px;
+                  left: 0; }
+                .mivin-main-page .mivin-mbox .mivin-faq .mivin-question1 .mivin-question1-heading h3 {
+                  color: #fff;
+                  font-size: 50px; }
+              .mivin-main-page .mivin-mbox .mivin-faq .mivin-question1 .mivin-question1-answer {
+                font-size: 18px;
+                line-height: 1.3;
+                font-weight: bold; }
+                .mivin-main-page .mivin-mbox .mivin-faq .mivin-question1 .mivin-question1-answer p {
+                  font-size: 18px;
+                  line-height: 1.3;
+                  font-weight: bold;
+                  color: #fff; }
+                  .mivin-main-page .mivin-mbox .mivin-faq .mivin-question1 .mivin-question1-answer p a {
+                    color: #fff; }
+              .mivin-main-page .mivin-mbox .mivin-faq .mivin-question2 .mivin-question2-heading {
+                position: relative; }
+                .mivin-main-page .mivin-mbox .mivin-faq .mivin-question2 .mivin-question2-heading:before {
+                  width: 130px;
+                  min-height: 3px;
+                  background: #fff;
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -2px;
+                  right: 0; }
+                .mivin-main-page .mivin-mbox .mivin-faq .mivin-question2 .mivin-question2-heading:after {
+                  width: 130px;
+                  min-height: 3px;
+                  background: #fff;
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -2px;
+                  left: 0; }
+                .mivin-main-page .mivin-mbox .mivin-faq .mivin-question2 .mivin-question2-heading h3 {
+                  font-size: 50px; }
+              .mivin-main-page .mivin-mbox .mivin-faq .mivin-question2 .mivin-question2-answer {
+                font-size: 18px;
+                line-height: 1.3;
+                font-weight: bold; }
+                .mivin-main-page .mivin-mbox .mivin-faq .mivin-question2 .mivin-question2-answer p {
+                  font-size: 18px;
+                  line-height: 1.3;
+                  font-weight: bold;
+                  color: #fff; }
+                  .mivin-main-page .mivin-mbox .mivin-faq .mivin-question2 .mivin-question2-answer p a {
+                    color: #fff; }
+            .mivin-main-page .mivin-mbox .mivin-thank-you {
+              width: 100%;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+              -moz-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              padding: 90px 0 80px 0; }
+            .mivin-main-page .mivin-mbox .mivin-partners-bottom {
+              width: 100%;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+              -moz-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              padding-bottom: 35px;
+              border-bottom: 3px solid #fff; }
+            .mivin-main-page .mivin-mbox .mivina-rights {
+              color: #fff;
+              font-size: 12px;
+              text-align: center;
+              font-weight: bold; }
+              .mivin-main-page .mivin-mbox .mivina-rights a {
+                color: #fff; }
+              .mivin-main-page .mivin-mbox .mivina-rights p {
+                margin: 20px 0;
+                font-size: 12px;
+                text-align: center;
+                font-weight: bold; }
+
+        @-webkit-keyframes arrowJumping {
+          0% {
+            top: -35px; }
+          100% {
+            top: 0px; } }
+
+        @-moz-keyframes arrowJumping {
+          0% {
+            top: -35px; }
+          100% {
+            top: 0px; } }
+
+        @-o-keyframes arrowJumping {
+          0% {
+            top: -35px; }
+          100% {
+            top: 0px; } }
+
+        @keyframes arrowJumping {
+          0% {
+            top: -35px; }
+          100% {
+            top: 0px; } }
+
+
+
+
+    </style>
     <!-- endbuild -->
 
     <!--[if lt IE 10]>
@@ -41,4 +679,4 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body>
+<body class="mivin-body">
